@@ -79,7 +79,7 @@
 	android.permission.BLUETOOTH
 	android.permission.WRITE_SETTINGS
 	android.permission.READ_PHONE_STATE
-## Sources: 264
+## Sources: 278
 	<android.view.ScaleGestureDetector: float getFocusX()>: 1
 	<android.os.Message: android.os.Handler getTarget()>: 2
 	<java.io.ByteArrayOutputStream: byte[] toByteArray()>: 18
@@ -102,6 +102,7 @@
 	<android.location.Location: float getBearing()>: 3
 	<java.lang.ClassLoader: java.util.Enumeration getResources(java.lang.String)>: 2
 	<java.io.File: java.lang.String getName()>: 7
+	<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>: 1
 	<android.os.StatFs: int getAvailableBlocks()>: 3
 	<org.apache.commons.codec.binary.Base64: byte[] discardWhitespace(byte[])>: 1
 	<android.content.Intent: android.content.Intent parseUri(java.lang.String,int)>: 1
@@ -138,9 +139,11 @@
 	<android.widget.OverScroller: int getCurrX()>: 1
 	<android.os.Bundle: int getInt(java.lang.String)>: 27
 	<java.util.HashMap: java.lang.Object get(java.lang.Object)>: 1
+	<java.net.HttpURLConnection: java.io.InputStream getInputStream()>: 3
 	<android.os.Bundle: java.lang.Object get(java.lang.String)>: 1
 	<android.view.ScaleGestureDetector: float getScaleFactor()>: 1
 	<android.graphics.Bitmap: android.graphics.Bitmap createBitmap(int,int,android.graphics.Bitmap$Config)>: 3
+	<android.database.Cursor: int getInt(int)>: 4
 	<android.view.KeyEvent: int getKeyCode()>: 2
 	<android.app.Dialog: android.view.Window getWindow()>: 1
 	<java.lang.Float: float parseFloat(java.lang.String)>: 20
@@ -168,6 +171,7 @@
 	<org.json.JSONObject: java.lang.String getString(java.lang.String)>: 88
 	<android.view.ScaleGestureDetector: float getFocusY()>: 1
 	<android.view.ViewConfiguration: int getMinimumFlingVelocity()>: 2
+	<android.database.Cursor: java.lang.String getString(int)>: 20
 	<org.apache.commons.codec.binary.Base64: byte[] discardNonBase64(byte[])>: 1
 	<android.os.Bundle: boolean getBoolean(java.lang.String,boolean)>: 3
 	<android.net.ConnectivityManager: android.net.NetworkInfo getActiveNetworkInfo()>: 22
@@ -197,11 +201,13 @@
 	<android.view.ViewConfiguration: int getScaledTouchSlop()>: 1
 	<java.net.Socket: java.io.OutputStream getOutputStream()>: 6
 	<android.graphics.Paint: android.graphics.Paint$FontMetrics getFontMetrics()>: 2
+	<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>: 17
 	<android.telephony.SmsMessage: android.telephony.SmsMessage createFromPdu(byte[])>: 1
 	<android.os.Bundle: long getLong(java.lang.String)>: 6
 	<java.security.KeyStore: void load(java.io.InputStream,char[])>: 2
 	<android.widget.EditText: android.text.Editable getText()>: 2
 	<android.provider.Settings$System: java.lang.String getString(android.content.ContentResolver,java.lang.String)>: 2
+	<java.io.File: java.io.File[] listFiles()>: 1
 	<java.util.Locale: java.lang.String getLanguage()>: 1
 	<android.view.VelocityTracker: float getXVelocity(int)>: 2
 	<android.content.Intent: int getIntExtra(java.lang.String,int)>: 2
@@ -238,6 +244,7 @@
 	<java.security.MessageDigest: java.security.MessageDigest getInstance(java.lang.String)>: 7
 	<android.graphics.drawable.Drawable: int getIntrinsicHeight()>: 2
 	<org.json.JSONObject: long getLong(java.lang.String)>: 2
+	<java.net.URL: java.io.InputStream openStream()>: 3
 	<java.security.cert.X509Certificate: java.util.Collection getSubjectAlternativeNames()>: 1
 	<android.view.Display: void getMetrics(android.util.DisplayMetrics)>: 5
 	<java.lang.Long: long parseLong(java.lang.String,int)>: 2
@@ -251,6 +258,7 @@
 	<java.lang.Double: double parseDouble(java.lang.String)>: 20
 	<android.telephony.NeighboringCellInfo: int getLac()>: 4
 	<android.view.MotionEvent: int getAction()>: 28
+	<android.content.Context: java.io.FileInputStream openFileInput(java.lang.String)>: 3
 	<android.content.Intent: android.content.Intent setClass(android.content.Context,java.lang.Class)>: 6
 	<android.os.Bundle: android.os.Bundle getBundle(java.lang.String)>: 4
 	<android.app.PendingIntent: android.app.PendingIntent getBroadcast(android.content.Context,int,android.content.Intent,int)>: 3
@@ -266,12 +274,14 @@
 	<java.util.zip.ZipFile: java.io.InputStream getInputStream(java.util.zip.ZipEntry)>: 1
 	<android.webkit.MimeTypeMap: android.webkit.MimeTypeMap getSingleton()>: 1
 	<android.content.ContentProviderClient: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>: 1
+	<android.content.Context: java.lang.Object getSystemService(java.lang.String)>: 49
 	<android.widget.ImageView: android.graphics.drawable.Drawable getDrawable()>: 7
 	<android.graphics.drawable.Drawable: int getIntrinsicWidth()>: 2
 	<android.os.Environment: java.lang.String getExternalStorageState()>: 5
 	<javax.net.ssl.SSLContext: javax.net.ssl.SSLSocketFactory getSocketFactory()>: 3
 	<android.os.Bundle: boolean getBoolean(java.lang.String)>: 4
 	<android.graphics.BitmapFactory: android.graphics.Bitmap decodeStream(java.io.InputStream)>: 4
+	<android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>: 7
 	<java.lang.Long: long parseLong(java.lang.String)>: 3
 	<java.io.File: java.io.File getParentFile()>: 4
 	<android.widget.ImageView: android.widget.ImageView$ScaleType getScaleType()>: 1
@@ -302,6 +312,7 @@
 	<java.io.RandomAccessFile: byte readByte()>: 2
 	<org.json.JSONArray: org.json.JSONArray put(int,java.lang.Object)>: 1
 	<android.app.ActivityManager: java.util.List getRunningServices(int)>: 1
+	<java.io.FileInputStream: void <init>: 13
 	<java.util.ArrayList: java.lang.Object get(int)>: 108
 	<java.text.DateFormat: java.text.DateFormat getDateTimeInstance()>: 1
 	<android.telephony.TelephonyManager: android.telephony.CellLocation getCellLocation()>: 7
@@ -327,12 +338,15 @@
 	<android.net.wifi.WifiInfo: java.lang.String getBSSID()>: 2
 	<android.view.View: java.lang.Object getTag()>: 2
 	<android.location.LocationManager: android.location.GpsStatus getGpsStatus(android.location.GpsStatus)>: 2
+	<android.database.Cursor: long getLong(int)>: 3
 	<android.net.wifi.WifiManager: java.util.List getScanResults()>: 4
 	<java.io.RandomAccessFile: float readFloat()>: 1
 	<android.view.ViewGroup: android.view.View getChildAt(int)>: 2
 	<android.view.ViewConfiguration: android.view.ViewConfiguration get(android.content.Context)>: 1
+	<java.io.File: boolean delete()>: 7
 	<java.io.RandomAccessFile: long readLong()>: 5
 	<android.os.Bundle: double getDouble(java.lang.String)>: 20
+	<java.io.File: void <init>: 67
 	<android.location.LocationManager: boolean isProviderEnabled(java.lang.String)>: 10
 	<android.webkit.MimeTypeMap: java.lang.String getMimeTypeFromExtension(java.lang.String)>: 1
 	<android.location.Address: int getMaxAddressLineIndex()>: 3
@@ -344,7 +358,7 @@
 	<android.telephony.NeighboringCellInfo: int getRssi()>: 4
 	<android.media.ExifInterface: java.lang.String getAttribute(java.lang.String)>: 1
 	<android.view.VelocityTracker: float getXVelocity()>: 1
-## Sinks: 138
+## Sinks: 157
 	<org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>: 44
 	<android.widget.ZoomControls: void setOnZoomOutClickListener(android.view.View$OnClickListener)>: 1
 	<java.lang.StringBuffer: void setCharAt(int,char)>: 1
@@ -370,6 +384,7 @@
 	<android.graphics.Paint: android.graphics.Typeface setTypeface(android.graphics.Typeface)>: 1
 	<java.io.RandomAccessFile: void write(byte[],int,int)>: 5
 	<java.lang.Math: double log(double)>: 12
+	<java.io.FileWriter: java.io.Writer append(java.lang.CharSequence)>: 11
 	<java.util.concurrent.Executors: java.util.concurrent.ExecutorService newSingleThreadExecutor(java.util.concurrent.ThreadFactory)>: 1
 	<android.app.Activity: void onCreate(android.os.Bundle)>: 12
 	<android.os.Bundle: void putString(java.lang.String,java.lang.String)>: 102
@@ -391,6 +406,7 @@
 	<android.os.Bundle: void putByteArray(java.lang.String,byte[])>: 11
 	<android.app.AlarmManager: void set(int,long,android.app.PendingIntent)>: 1
 	<java.lang.StringBuilder: void setCharAt(int,char)>: 3
+	<java.net.HttpURLConnection: void connect()>: 2
 	<android.media.MediaRecorder: void setOutputFile(java.lang.String)>: 1
 	<android.widget.TextView: void setText(java.lang.CharSequence)>: 54
 	<android.content.ContentValues: void put(java.lang.String,java.lang.Float)>: 1
@@ -405,11 +421,13 @@
 	<android.util.Log: int v(java.lang.String,java.lang.String)>: 3
 	<java.util.zip.GZIPOutputStream: void write(byte[],int,int)>: 1
 	<java.io.PrintStream: void println(java.lang.Object)>: 2
+	<java.net.HttpURLConnection: java.io.InputStream getInputStream()>: 3
 	<android.media.MediaRecorder: void setOnInfoListener(android.media.MediaRecorder$OnInfoListener)>: 1
 	<android.os.Bundle: void putLong(java.lang.String,long)>: 4
 	<java.lang.Long: long parseLong(java.lang.String)>: 3
 	<android.media.ExifInterface: void setAttribute(java.lang.String,java.lang.String)>: 1
 	<android.view.GestureDetector: void setOnDoubleTapListener(android.view.GestureDetector$OnDoubleTapListener)>: 1
+	<android.content.SharedPreferences$Editor: boolean commit()>: 19
 	<org.apache.http.conn.scheme.SchemeRegistry: org.apache.http.conn.scheme.Scheme register(org.apache.http.conn.scheme.Scheme)>: 1
 	<android.app.ProgressDialog: void setProgressStyle(int)>: 6
 	<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>: 1
@@ -420,12 +438,16 @@
 	<java.io.RandomAccessFile: void writeFloat(float)>: 1
 	<android.net.Uri: android.net.Uri parse(java.lang.String)>: 25
 	<java.io.FileOutputStream: void write(byte[],int,int)>: 6
+	<java.io.OutputStreamWriter: void <init>: 3
 	<java.net.ServerSocket: void setSoTimeout(int)>: 1
+	<android.database.sqlite.SQLiteDatabase: long insert(java.lang.String,java.lang.String,android.content.ContentValues)>: 1
 	<java.lang.Boolean: boolean parseBoolean(java.lang.String)>: 1
 	<android.os.Handler: boolean sendEmptyMessage(int)>: 4
 	<android.util.Log: int i(java.lang.String,java.lang.String)>: 2
 	<java.io.RandomAccessFile: void writeDouble(double)>: 4
+	<android.widget.Toast: android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)>: 23
 	<android.location.LocationManager: void requestLocationUpdates(java.lang.String,long,float,android.location.LocationListener)>: 11
+	<android.content.Context: android.content.ComponentName startService(android.content.Intent)>: 7
 	<android.app.Activity: void startActivity(android.content.Intent)>: 2
 	<java.lang.String: java.lang.String replace(char,char)>: 2
 	<android.app.ActivityManager: java.util.List getRunningServices(int)>: 1
@@ -433,15 +455,19 @@
 	<android.graphics.Matrix: boolean setRectToRect(android.graphics.RectF,android.graphics.RectF,android.graphics.Matrix$ScaleToFit)>: 4
 	<android.view.Window: void setType(int)>: 15
 	<android.widget.ImageView: void setImageURI(android.net.Uri)>: 1
+	<java.net.URL: void <init>: 7
 	<android.location.LocationManager: boolean addNmeaListener(android.location.GpsStatus$NmeaListener)>: 1
 	<java.io.OutputStream: void write(byte[])>: 9
 	<java.io.ObjectOutputStream: void writeBoolean(boolean)>: 1
 	<android.widget.TextView: void setTypeface(android.graphics.Typeface,int)>: 1
 	<org.apache.http.params.HttpProtocolParams: void setUseExpectContinue(org.apache.http.params.HttpParams,boolean)>: 2
 	<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>: 59
+	<android.content.Context: void startActivity(android.content.Intent)>: 17
 	<android.content.ContentValues: void put(java.lang.String,java.lang.Double)>: 2
 	<android.os.Bundle: void putBoolean(java.lang.String,boolean)>: 6
+	<org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>: 23
 	<java.io.Writer: void write(java.lang.String)>: 10
+	<java.lang.Class: java.lang.Class forName(java.lang.String)>: 19
 	<org.apache.http.client.params.HttpClientParams: void setCookiePolicy(org.apache.http.params.HttpParams,java.lang.String)>: 1
 	<java.lang.reflect.Field: void set(java.lang.Object,java.lang.Object)>: 1
 	<java.io.Writer: void write(char[])>: 1
@@ -456,11 +482,15 @@
 	<java.util.zip.ZipOutputStream: void write(byte[],int,int)>: 2
 	<android.view.Window: void setFlags(int,int)>: 1
 	<android.widget.TextView: void setTextSize(float)>: 14
+	<java.lang.ProcessBuilder: java.lang.Process start()>: 1
 	<java.lang.System: java.lang.String setProperty(java.lang.String,java.lang.String)>: 3
 	<java.io.ObjectOutputStream: void writeObject(java.lang.Object)>: 9
+	<java.io.PrintWriter: void println(java.lang.String)>: 1
 	<java.io.ObjectOutputStream: void writeFloat(float)>: 2
+	<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>: 17
 	<android.widget.ImageView: void setImageResource(int)>: 34
 	<org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>: 2
+	<java.io.File: boolean delete()>: 7
 	<java.io.RandomAccessFile: void write(byte[])>: 2
 	<android.app.ProgressDialog: void setMessage(java.lang.CharSequence)>: 6
 	<java.lang.StringBuilder: void setLength(int)>: 11
@@ -468,6 +498,8 @@
 	<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>: 7
 	<android.widget.ZoomControls: void setIsZoomInEnabled(boolean)>: 1
 	<android.os.Bundle: void putIntArray(java.lang.String,int[])>: 12
+	<java.io.FileOutputStream: void <init>: 14
+	<java.io.FileOutputStream: void write(byte[])>: 6
 	<android.location.Location: void setTime(long)>: 1
 	<android.widget.ImageView: void setImageDrawable(android.graphics.drawable.Drawable)>: 1
 	<android.os.Message: void setData(android.os.Bundle)>: 4
@@ -479,7 +511,9 @@
 	<java.lang.Integer: int parseInt(java.lang.String)>: 59
 	<android.widget.ZoomControls: void setIsZoomOutEnabled(boolean)>: 1
 	<android.widget.TextView: void setPadding(int,int,int,int)>: 15
+	<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>: 1
 	<java.lang.Thread: void setDaemon(boolean)>: 5
 	<android.graphics.Paint: void setStrokeJoin(android.graphics.Paint$Join)>: 3
 	<android.location.LocationManager: void removeUpdates(android.location.LocationListener)>: 5
 	<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>: 1
+
