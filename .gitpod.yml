@@ -3,3 +3,5 @@ image: adoptopenjdk/openjdk8
 vscode:
   extensions: 
     - TaintBench.TB-Viewer@0.0.1:WdS4nLxb6q3mnL5ZKN+Pkg==
+tasks:
+  - command: open src/main/java/com/android/service/AlarmReceiver/AnonymousClass1.java
