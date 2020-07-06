@@ -96,7 +96,8 @@
         "threading": true
       },
       "ID": 1,
-      "description": "This malicious flow reads location information (longitude) and saves it a text file which will be later uploaded to a remote server."
+      "description": "This malicious flow reads location information (longitude) and saves it a text file which will be later uploaded to a remote server.",
+      "isNegative": false
     },
     {
       "source": {
@@ -192,7 +193,8 @@
         "threading": true
       },
       "ID": 2,
-      "description": "This malicious flow reads location information (latitude) and saves it a text file which will be later uploaded to a remote server."
+      "description": "This malicious flow reads location information (latitude) and saves it a text file which will be later uploaded to a remote server.",
+      "isNegative": false
     },
     {
       "source": {
@@ -229,7 +231,8 @@
         "partialFlow": true
       },
       "ID": 3,
-      "description": "This malicious flow reads SMS information (address) and saves it a text file which will be later uploaded to a remote server."
+      "description": "This malicious flow reads SMS information (address) and saves it a text file which will be later uploaded to a remote server.",
+      "isNegative": false
     },
     {
       "source": {
@@ -266,7 +269,8 @@
         "partialFlow": true
       },
       "ID": 4,
-      "description": "This malicious flow reads SMS information (message body) and saves it a text file which will be later uploaded to a remote server."
+      "description": "This malicious flow reads SMS information (message body) and saves it a text file which will be later uploaded to a remote server.",
+      "isNegative": false
     },
     {
       "source": {
@@ -312,7 +316,8 @@
         "partialFlow": true
       },
       "ID": 5,
-      "description": "This malicious flow reads SMS information (message type) and saves it a text file which will be later uploaded to a remote server."
+      "description": "This malicious flow reads SMS information (message type) and saves it a text file which will be later uploaded to a remote server.",
+      "isNegative": false
     },
     {
       "source": {
@@ -365,7 +370,8 @@
         "partialFlow": true
       },
       "ID": 6,
-      "description": "This malicious flow reads SMS information (date) and saves it a text file which will be later uploaded to a remote server."
+      "description": "This malicious flow reads SMS information (date) and saves it a text file which will be later uploaded to a remote server.",
+      "isNegative": false
     },
     {
       "source": {
@@ -402,7 +408,8 @@
         "staticField": true
       },
       "ID": 7,
-      "description": "This malicious partial flow reads call record (number) and saves it a text file which will be later uploaded to a remote server."
+      "description": "This malicious partial flow reads call record (number) and saves it a text file which will be later uploaded to a remote server.",
+      "isNegative": false
     },
     {
       "source": {
@@ -439,7 +446,8 @@
         "partialFlow": true
       },
       "ID": 8,
-      "description": "This malicious partial flow reads call record (name) and saves it a text file which will be later uploaded to a remote server."
+      "description": "This malicious partial flow reads call record (name) and saves it a text file which will be later uploaded to a remote server.",
+      "isNegative": false
     },
     {
       "source": {
@@ -485,7 +493,8 @@
         "partialFlow": true
       },
       "ID": 9,
-      "description": "This malicious flow reads call record (type) and saves it a text file which will be later uploaded to a remote server."
+      "description": "This malicious flow reads call record (type) and saves it a text file which will be later uploaded to a remote server.",
+      "isNegative": false
     },
     {
       "source": {
@@ -538,7 +547,8 @@
         "partialFlow": true
       },
       "ID": 10,
-      "description": "This malicious flow reads call record (date) and saves it a text file which will be later uploaded to a remote server."
+      "description": "This malicious flow reads call record (date) and saves it a text file which will be later uploaded to a remote server.",
+      "isNegative": false
     },
     {
       "source": {
@@ -565,7 +575,7 @@
         "IRs": [
           {
             "type": "Jimple",
-            "IRstatement": "virtualinvoke $r2.<java.io.FileWriter: java.io.Writer append(java.lang.CharSequence)>($r8)"
+            "IRstatement": "virtualinvoke $r2.<java.io.FileWriter: java.io.Writer append(java.lang.CharSequence)>($r10)"
           }
         ]
       },
@@ -582,7 +592,8 @@
         "partialFlow": true
       },
       "ID": 11,
-      "description": "This malicious flow reads contact information and saves it a text file which will be later uploaded to a remote server."
+      "description": "This malicious flow reads contact information and saves it a text file which will be later uploaded to a remote server.",
+      "isNegative": false
     },
     {
       "source": {
@@ -609,7 +620,7 @@
         "IRs": [
           {
             "type": "Jimple",
-            "IRstatement": "virtualinvoke $r2.<java.io.FileWriter: java.io.Writer append(java.lang.CharSequence)>($r8)"
+            "IRstatement": "virtualinvoke $r2.<java.io.FileWriter: java.io.Writer append(java.lang.CharSequence)>($r10)"
           }
         ]
       },
@@ -618,7 +629,8 @@
         "partialFlow": true
       },
       "ID": 12,
-      "description": "This malicious flow reads contact information and saves it a text file which will be later uploaded to a remote server."
+      "description": "This malicious flow reads contact information and saves it a text file which will be later uploaded to a remote server.",
+      "isNegative": false
     },
     {
       "source": {
@@ -655,7 +667,8 @@
         "partialFlow": true
       },
       "ID": 13,
-      "description": "This malicious flow reads calender information and saves it a text file which will be later uploaded to a remote server."
+      "description": "This malicious flow reads calender information and saves it a text file which will be later uploaded to a remote server.",
+      "isNegative": false
     },
     {
       "source": {
@@ -692,7 +705,8 @@
         "partialFlow": true
       },
       "ID": 14,
-      "description": "This malicious flow reads calender information and saves it a text file which will be later uploaded to a remote server."
+      "description": "This malicious flow reads calender information and saves it a text file which will be later uploaded to a remote server.",
+      "isNegative": false
     },
     {
       "source": {
@@ -729,7 +743,8 @@
         "partialFlow": true
       },
       "ID": 15,
-      "description": "This malicious flow reads calender information and saves it a text file which will be later uploaded to a remote server."
+      "description": "This malicious flow reads calender information and saves it a text file which will be later uploaded to a remote server.",
+      "isNegative": false
     },
     {
       "source": {
@@ -775,7 +790,8 @@
         "partialFlow": true
       },
       "ID": 16,
-      "description": "This malicious flow reads calender information and saves it a text file which will be later uploaded to a remote server."
+      "description": "This malicious flow reads calender information and saves it a text file which will be later uploaded to a remote server.",
+      "isNegative": false
     },
     {
       "source": {
@@ -812,7 +828,8 @@
         "partialFlow": true
       },
       "ID": 17,
-      "description": "This malicious flow reads calender information and saves it a text file which will be later uploaded to a remote server."
+      "description": "This malicious flow reads calender information and saves it a text file which will be later uploaded to a remote server.",
+      "isNegative": false
     }
   ]
 }
